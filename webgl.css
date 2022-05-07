@@ -1,6 +1,14 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 canvas {
 	border: 2px solid black;
 	background-color: black;
+    border-radius: 10px;
+    margin: 10px auto;
 }
 video {
 	display: none;
